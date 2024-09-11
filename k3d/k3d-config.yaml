@@ -6,6 +6,6 @@ image: rancher/k3s:v1.30.4-k3s1
 servers: 1 # control plane nodes
 agents: 2 # worker nodes
 ports:
-- port: 80:80
+- port: 31000-31001:31000-31001
   nodeFilters:
   - loadbalancer
